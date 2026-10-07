@@ -1,0 +1,7 @@
+{
+  "name": "IPA Legacy Converter",
+  "short_name": "IPAConverter",
+  "version": "1.4.0",
+  "manifest_version": 3,
+  "description": "Convert and extract IPA files for legacy iOS targets."
+}
