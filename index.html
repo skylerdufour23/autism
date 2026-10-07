@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA Legacy Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.svg" alt="App Logo" width="64" height="64">
+            <h1>IPA Legacy Converter & Extractor</h1>
+            <p>Modify IPA files for Version 1.4 & Minimum OS iOS 2.0 compatibility.</p>
+        </header>
+        <main>
+            <div class="drop-zone" id="dropZone">
+                <p>Drag & drop your .ipa file here or <span class="browse">browse</span></p>
+                <input type="file" id="fileInput" accept=".ipa" hidden>
+            </div>
+            <div id="status" class="hidden"></div>
+        </main>
+        <footer>
+            <p>&copy; 2026 IPA Converter Web App. Licensed under MIT.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
